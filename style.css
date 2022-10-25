@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.caixa{
+    background-color: #fff;
+    color: #1c1c1c;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+    padding: 64px;
+}
+
+.perfil{
+    display: flex;
+}
+
+.perfil-foto{
+    border-radius: 200px;
+    max-height: 184px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo-fonte{
+    margin-top: 85px;
+    margin-left: 16px;
+    line-height: 10px;
+}
+
+.titulo{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.titulo2{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.titulo3{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.titulo4{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.titulo5{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+p{
+    margin-left: 55px;
+    text-align: justify;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+.j1{
+    text-align: center;
+}
+
+.nav{
+    height: 82px;
+}
+
+ul {
+    margin: 50px auto;
+    width: 600px;
+    height: 15px;
+    list-style: none;
+    background: rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+li {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    transition: 1s;
+    padding: 25px 30px;
+}
+
+li a:hover {
+    transition: 1s;
+    color: black;
+    background: rgba(255, 255, 255, 0.7);   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    margin-left: 55px;
+    text-align: justify;
+}
